@@ -1,0 +1,13 @@
+[project]
+name = "team-activity-monitor"
+version = "0.1.0"
+description = "Team Activity Monitor"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.2",
+    "google-genai>=1.54.0",
+    "jira>=3.10.5",
+    "python-dotenv>=1.2.1",
+    "requests>=2.32.5",
+]
